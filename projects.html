@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tentang Saya</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyek | Timotius Avaro</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header>
@@ -12,21 +12,36 @@
       <h1 class="logo">Timotius Avaro</h1>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      <button id="modeToggle">🌙</button>
     </nav>
   </header>
 
-  <section class="content">
-    <h2>Tentang Saya</h2>
-    <p>Saya adalah seorang mahasiswa yang antusias dalam bidang teknologi informasi, terutama dalam pengembangan web dan sistem pendukung keputusan.</p>
-    <p>Saya senang mempelajari hal baru dan menerapkannya dalam proyek nyata yang dapat membantu orang lain.</p>
+  <section class="content fade-in">
+    <h2>Proyek Saya</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Sistem Pendukung Keputusan</h3>
+        <p>Aplikasi web yang membantu memilih keputusan terbaik dengan metode SAW & AHP.</p>
+      </div>
+      <div class="project-card">
+        <h3>Website Pemesanan Tiket</h3>
+        <p>Website responsif untuk pemesanan tiket pesawat dengan fitur pembayaran otomatis.</p>
+      </div>
+      <div class="project-card">
+        <h3>Analisis Data GIS</h3>
+        <p>Visualisasi data geografis untuk analisis lokasi berbasis peta interaktif.</p>
+      </div>
+    </div>
   </section>
 
   <footer>
     <p>© 2025 Timotius Avaro Andrelo Putra</p>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
