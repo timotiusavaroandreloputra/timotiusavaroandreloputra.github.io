@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+nav a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.project {
+  background: #161b22;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem auto;
+  width: 60%;
+}
