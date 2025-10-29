@@ -1,36 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Timotius Avaro Andrelo Putra | Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Halo, saya Timotius Avaro Andrelo Putra</h1>
-    <nav>
-      <a href="#about">Tentang</a>
-      <a href="#projects">Proyek</a>
-      <a href="#contact">Kontak</a>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>Tentang Saya</h2>
-    <p>Saya adalah mahasiswa yang tertarik pada web development dan data.</p>
-  </section>
-
-  <section id="projects">
-    <h2>Proyek</h2>
-    <div class="project">
-      <h3>Sistem Pendukung Keputusan</h3>
-      <p>Website berbasis SAW & AHP untuk memilih mobil terbaik.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Timotius Avaro Andrelo Putra</h1>
+      <p>Mahasiswa Informatika yang berfokus pada pengembangan web dan analisis data.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">Lihat Proyek</a>
+        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+      </div>
     </div>
   </section>
 
+  <!-- Tentang Saya -->
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah mahasiswa Informatika yang memiliki minat dalam pengembangan website dan analisis data. Saya senang mempelajari teknologi baru dan berusaha untuk terus berkembang dalam dunia digital.</p>
+  </section>
+
+  <!-- Proyek -->
+  <section id="projects" class="projects">
+    <h2>Proyek</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Sistem Pendukung Keputusan</h3>
+        <p>Aplikasi berbasis web untuk menentukan pilihan terbaik menggunakan metode SAW dan AHP.</p>
+      </div>
+      <div class="project-card">
+        <h3>Website Portfolio</h3>
+        <p>Website pribadi sederhana yang menampilkan profil, proyek, dan kontak.</p>
+      </div>
+      <div class="project-card">
+        <h3>Analisis Data Penjualan</h3>
+        <p>Dashboard interaktif untuk menampilkan data penjualan dan performa produk.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <p>Ingin berkolaborasi atau berdiskusi? Hubungi saya di:</p>
+    <ul>
+      <li>Email: <a href="mailto:timotiusavaro@gmail.com">timotiusavaro@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/timotiusavaroandreloputra" target="_blank">timotiusavaroandreloputra</a></li>
+    </ul>
+  </section>
+
   <footer>
-    <p>© 2025 Red Miper</p>
+    <p>© 2025 Timotius Avaro Andrelo Putra. All rights reserved.</p>
   </footer>
 </body>
 </html>
